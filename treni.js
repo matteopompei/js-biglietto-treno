@@ -24,4 +24,4 @@ price = price.toFixed(2);
 document.getElementById("prezzo-biglietto").innerHTML = price;
 
 let animation = document.getElementById("container");
-  animation.classList.add("visibile", "animazione");
+animation.classList.add("visibile", "animazione");
