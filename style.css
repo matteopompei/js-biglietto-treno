@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #333 url(bg-treni.jpg) no-repeat;
+  background-size: cover;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #FFF;
+  font-size: 40px;
+  text-shadow: 0 0 3px #000;
+}
+
+div {
+  margin: 10% auto;
+  padding: 100px 50px;
+  width: fit-content;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+}
+
+#prezzo-biglietto {
+  color: #ff0000;
+  transition: text-shadow 0.3s;
+}
+
+div:hover #prezzo-biglietto {
+  text-shadow: 0 0 3px #ec4c4ca8;
+}
