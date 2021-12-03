@@ -17,7 +17,7 @@ div {
   margin: 10% auto;
   padding: 100px 50px;
   width: fit-content;
-  background: rgba(0, 0, 0, 0.7);
+  background: rgba(0, 0, 0, 0.8);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
   visibility: hidden;
