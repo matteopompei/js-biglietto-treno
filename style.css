@@ -20,6 +20,7 @@ div {
   background: rgba(0, 0, 0, 0.7);
   border-radius: 10px;
   box-shadow: rgba(0, 0, 0, 0.2) 0px 60px 40px -7px;
+  visibility: hidden;
 }
 
 #prezzo-biglietto {
@@ -28,5 +29,24 @@ div {
 }
 
 div:hover #prezzo-biglietto {
-  text-shadow: 0 0 3px #ec4c4ca8;
+  text-shadow: 0 0 7px #ec4c4ca8;
+}
+
+.visibile {
+  visibility: visible;
+}
+
+.animazione {
+  animation: entrata 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+@keyframes entrata {
+  0% {
+    transform: scale(0);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
 }

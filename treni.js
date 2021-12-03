@@ -11,10 +11,17 @@ if (age <= 0) {
 else if (age < 18) {
   price = price - ((price / 100) * 20);
 }
-else if (age >= 65) {
+else if (age >= 65 && age < 140) {
   price = price - ((price / 100) * 40);
 }
-
-document.getElementById("prezzo-biglietto").innerHTML = price;
+else if (age > 140) {
+  alert("Legolas?");
+  alert("Riproviamo!");
+  location.reload();
+}
 
 price = price.toFixed(2);
+document.getElementById("prezzo-biglietto").innerHTML = price;
+
+let animation = document.getElementById("container");
+  animation.classList.add("visibile", "animazione");
